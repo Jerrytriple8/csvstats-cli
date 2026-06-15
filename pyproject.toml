@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "csvstats-cli"
+version = "1.0.0"
+description = "Fast, zero-dependency CLI tool for instant CSV file statistics"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+keywords = ["csv", "statistics", "cli", "data", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.scripts]
+csvstats = "csvstats:main"
+
+[project.urls]
+Homepage = "https://github.com/Jerrytriple8/csvstats-cli"
+Repository = "https://github.com/Jerrytriple8/csvstats-cli"
+Issues = "https://github.com/Jerrytriple8/csvstats-cli/issues"
+
+[tool.setuptools]
+py-modules = ["csvstats"]

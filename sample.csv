@@ -1,0 +1,16 @@
+name,age,salary,department,active,hire_date,email
+Alice Johnson,32,72500.50,Engineering,true,2020-03-15,alice@example.com
+Bob Smith,45,95000.00,Marketing,true,2018-07-22,bob@example.com
+Carol White,28,62000.75,Engineering,true,2022-01-10,carol@example.com
+David Brown,51,112000.00,Management,true,2015-11-30,david@example.com
+Eve Davis,,58000.25,Support,false,2019-05-18,eve@example.com
+Frank Miller,38,83000.00,Engineering,true,2021-09-03,frank@example.com
+Grace Lee,29,67500.00,Marketing,,2023-02-14,grace@example.com
+Hank Wilson,42,91000.50,Management,true,2017-08-27,
+Ivy Chen,35,78000.00,Engineering,true,2020-12-01,ivy@example.com
+Jack Taylor,61,125000.00,Management,true,2014-04-19,jack@example.com
+Kate Moore,26,55000.00,Support,true,2023-06-15,kate@example.com
+Leo Garcia,33,71000.25,Engineering,false,2019-10-08,leo@example.com
+Mia Robinson,47,98000.00,Marketing,true,2016-12-22,mia@example.com
+Noah Clark,31,69500.50,Support,true,2021-04-11,noah@example.com
+Olivia Hall,39,87000.00,Engineering,true,2018-01-29,olivia@example.com
